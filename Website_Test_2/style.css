@@ -1,0 +1,98 @@
+@import url('http://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #081b29;
+}
+
+.header {
+    position:fixed;
+    top: 0;
+    left:0;
+    width:100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;  
+}
+
+.logo{
+    font-size: 25px;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+}
+
+.navbar a {
+    font-size: 15px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: 
+    rgb(63, 194, 255);
+}
+
+.home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+
+.home-cnt{
+    color: aliceblue;
+    width: 1000px;
+}
+.home-cnt p{
+    font-size: 100px;
+}
+
+.home-cnt strong{
+    font-size: 50px;
+}
+.home-cnt i{
+    font-size: 30px;
+}
+
+
+.personimg img{
+    width: 200px;
+    height: auto;
+}
+.intro{
+    font-size: 40px;
+}
+.name a{
+    color: aqua;
+}
+
+.portfolio{
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+
+.portfolio h2{
+    font-size: 40px;
+    color: aliceblue;
+}

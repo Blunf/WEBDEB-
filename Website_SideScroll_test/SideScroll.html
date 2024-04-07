@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-x: auto; /* 가로 스크롤 활성화 */
+            white-space: nowrap; /* 요소들이 줄 바꿈되지 않도록 설정 */
+        }
+
+        .scrolling-container {
+            width: 200%; /* 가로로 두 배로 넓게 설정 */
+        }
+
+        .scrolling-content {
+            display: inline-block;
+            width: 50%; /* 각각의 컨텐츠는 반씩 차지하도록 설정 */
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        /* 예시로 만든 스타일 */
+        .content1 {
+            background-color: #3498db;
+            color: #fff;
+        }
+
+        .content2 {
+            background-color: #2ecc71;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="scrolling-container">
+        <div class="scrolling-content content1">
+            <h2>Content 1</h2>
+            <p>This is the first horizontally scrolling content.</p>
+        </div>
+        <div class="scrolling-content content2">
+            <h2>Content 2</h2>
+            <p>This is the second horizontally scrolling content.</p>
+        </div>
+        <!-- Add more scrolling content as needed -->
+    </div>
+</body>
+</html>
