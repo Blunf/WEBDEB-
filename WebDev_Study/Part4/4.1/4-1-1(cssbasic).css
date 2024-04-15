@@ -1,0 +1,11 @@
+/*
+    문법 형식 -> h1{color:red;}
+    h1= 선택자     color= 속성     red=값
+
+*/
+
+
+h1{
+    font-size:24px;
+    color: red;
+}
